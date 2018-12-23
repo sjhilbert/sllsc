@@ -1,0 +1,79 @@
+the basic image parameters: 
+  lower_bound                 = -2.42407e-05	-2.42407e-05	(-5"	-5")
+  upper_bound                 = 2.42407e-05	2.42407e-05	(5"	5")
+  side_length                 = 4.84814e-05	4.84814e-05	(10"	10")
+  N_pixels                    = 1024	1024
+  gaussian psf sigma per dim  = 1.21203e-07	(0.025")
+  gaussian pixel noise sigma  = 1
+  min S/N near substructure   = 3
+
+units: 
+  unit length   [pc]          = 1e+06
+  unit mass     [M_solar]     = 1e+10
+  unit velocity [km/s]        = 1
+
+the cosmology: flat cosmology parameters:
+  Omega_matter                = 0.3
+  h                           = 0.7
+
+basic source-lens system parameters:
+  main_lens_redshift          = 0.6
+  source_redshift             = 2.5
+  D_A_main_lens               = 1378.98
+  rho_crit_main_lens          = 26.2232
+  inv_Sigma_crit_main_lens    = 5.1543e-06
+
+the source: Sersic elliptical profile:
+  center_radius_lower_bound   = 0	(0")
+  center_radius_upper_bound   = 2.42407e-06	(0.5")
+  amplitude_lower_bound       = 2.5
+  amplitude_upper_bound       = 3
+  eff_radius_lower_bound      = 4.84814e-07	(0.1")
+  eff_radius_upper_bound      = 2.42407e-06	(0.5")
+  Sersic_index_lower_bound    = 0.8
+  Sersic_index_upper_bound    = 2.2
+  axis_ratio_mu               = 0.6
+  axis_ratio_sigma            = 0.15
+  axis_ratio_lower_bound      = 0.2
+  axis_ratio_upper_bound      = 1
+  position_angle_lower_bound  = -1.5708	(-90 deg)
+  position_angle_upper_bound  = 1.5708	(90 deg)
+
+the main lens light: Sersic elliptical profile parameters:
+  center                      = 0	0	0	(0"	0")
+  amplitude                   = 1
+  effective_radius            = 2.42407e-06	(0.5")
+  Sersic_index                = 4
+  axis_ratio                  = 0.645
+  position_angle              = 0.0575959	( 3.3 deg)
+  value at center             = 2141.47
+
+the main lens: SPLE convergence profile:
+  Einstein_radius_lower_bound = 4.84814e-06	(1")
+  Einstein_radius_upper_bound = 9.69627e-06	(2")
+  slope_mu                    = 2.1
+  slope_sigma                 = 0.1
+  slope_lower_bound           = 1.5
+  slope_upper_bound           = 2.8
+  axis_ratio_mu               = 0.645
+  axis_ratio_sigma            = 0.05
+  axis_ratio_lower_bound      = 0.5
+  axis_ratio_upper_bound      = 1
+  position_angle_mu           = 0.0575959	(3.3 deg)
+  position_angle_sigma        = 0.174533	(10 deg)
+
+the external deflector: constant external shear:
+  shear_mu                    = 0	0
+  shear_sigma                 = 0.06	0.06
+  shear_radius_lower_bound    = 0
+  shear_radius_upper_bound    = 0.5
+
+the substructure: truncated NFW convergence profile:
+  center_radius_lower_bound   = 4.84814e-06	(1")
+  center_radius_upper_bound   = 9.69627e-06	(2")
+  mass_200c_log10_lower_bound = -4.5
+  mass_200c_log10_upper_bound = -3
+  concentration_sigma_log10   = 0.13
+  truncation/200c radius      = 2
+  truncation_index            = 1
+
