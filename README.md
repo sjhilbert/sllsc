@@ -7,7 +7,7 @@ The challenge is divided into four levels of increasing difficulty, complexity, 
 simple main lens mass, single substructure, simple instrument without noise, all parameters known) to level 3 (complex source, complex main lens, multiple l.o.s. structures and substructures, realistic instruments).
 
 The **challenge design** is described in more detail here:
-- [sllsc_design.pdf](https://github.com/sjhilbert/sllsc/blob/master/doc/sllsc_design/sllsc_design.pdf)
+- [sllsc_design.pdf](https://github.com/sjhilbert/sllsc/raw/master/doc/sllsc_design/sllsc_design.pdf)
 
 The **simulated data** for the first two levels (sorry radio data still missing) can be found here:
 - [lvl_0.tar.gz](https://github.com/sjhilbert/sllsc/raw/master/data/lvl_0.tar.gz)
