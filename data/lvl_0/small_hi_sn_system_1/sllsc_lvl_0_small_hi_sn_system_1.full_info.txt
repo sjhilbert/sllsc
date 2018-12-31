@@ -1,0 +1,57 @@
+#parameter_name                         unit            value           
+
+#the basic image parameters:
+image_lower_bound_1                     [arcsec]        -5
+image_lower_bound_2                     [arcsec]        -5
+image_upper_bound_1                     [arcsec]        5
+image_upper_bound_2                     [arcsec]        5
+image_number_of_pixels_1                []              1024
+image_number_of_pixels_2                []              1024
+image_gaussian_psf_sigma_per_dimension  [arcsec]        0.025
+image_gaussian_pixel_noise_sigma        []              1
+min_signal_to_noise_near_substructure   []              3
+
+#the cosmology:
+cosmology_Omega_matter                  []              0.3
+cosmology_Hubble_h                      []              0.7
+
+#the source: Sersic elliptical profile:
+source_redshift                         []              2.5
+source_center_1                         [arcsec]        0.27
+source_center_2                         [arcsec]        0.127
+source_amplitude                        []              2.769
+source_effective_radius                 [arcsec]        0.183
+source_Sersic_index                     []              1.925
+source_axis_ratio                       []              0.503
+source_position_angle                   [deg]           -64.2
+
+#the main lens light: Sersic elliptical profile:
+main_lens_light_center_1                [arcsec]        0
+main_lens_light_center_2                [arcsec]        0
+main_lens_light_amplitude               []              1
+main_lens_light_effective_radius        [arcsec]        0.5
+main_lens_light_Sersic_index            []              4
+main_lens_light_axis_ratio              []              0.65
+main_lens_light_position_angle          [deg]           19.1
+
+#the main lens:  SPLE convergence profile:
+main_lens_redshift                      []              0.6
+main_lens_center_1                      [arcsec]        0
+main_lens_center_2                      [arcsec]        0
+main_lens_Einstein_radius               [arcsec]        0.956
+main_lens_slope                         []              2.383
+main_lens_axis_ratio                    []              0.738
+main_lens_position_angle                [deg]           9.4
+
+#the external deflector: constant external shear:
+external_shear_1                        []              -0.044
+external_shear_2                        []              -0.098
+
+#the substructure: truncated NFW convergence profile:
+substructure_center_1                   [arcsec]        0.285
+substructure_center_2                   [arcsec]        1.112
+substructure_mass_200c                  [M_solar]       7.528e+08
+substructure_concentration              []              6.13
+substructure_truncation_over_200c_radius[]              2
+substructure_truncation_index           []              1
+

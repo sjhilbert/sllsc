@@ -1,0 +1,55 @@
+# sllsc detailed results submission file example for challenge level 0 and 1
+#
+# header:
+#
+# team name: The Challenge Team
+# team members: Stefan Hilbert, Massimo Meneghetti , Dandan Xu
+# contact email: hilbert@mpa-garching.mpg.de
+#
+# comments:
+# - Submissions of results should follow the provided format and naming conventions. Teams may submit different entries for different methods.
+#
+# - For submission of detailed results for a simulated system with files named
+#   "sllsc_lvl_0_some_system.info.txt", etc.
+#   the submitted file should be named like
+#   "sllsc_lvl_0_some_system.results_by_team_name_and_possibly_method.txt".
+# 
+# - The file should contain a header section and a parameter results section.
+#
+# - All lines except those stating the parameter results in the format provided below should start with "#" or be empty.
+#
+# - Please include in the file header the names of all team members, and at least one email address for communication and feedback.
+#
+# - In the parameter results section, please provide your estimates of parameters as the mean and standard deviation of your Gaussian approximations to your marginalized parameter posteriors.
+#
+# - Please send your results to:
+#   hilbert@mpa-garching.mpg.de
+
+# parameter results:
+#
+#parameter_name                         unit            mean            standard_deviation           
+
+#the source: Sersic elliptical profile:
+source_center_1                         [arcsec]        -0.114          0
+source_center_2                         [arcsec]        0.066           0
+source_amplitude                        []              2.871           0
+source_effective_radius                 [arcsec]        0.282           0
+source_Sersic_index                     []              1.407           0
+source_axis_ratio                       []              0.423           0
+source_position_angle                   [deg]           12.3            0
+
+#the main lens:  SPLE convergence profile:
+main_lens_Einstein_radius               [arcsec]        1.922           0
+main_lens_slope                         []              2.073           0
+main_lens_axis_ratio                    []              0.951           0
+main_lens_position_angle                [deg]           -76.8           0
+
+#the external deflector: constant external shear:
+external_shear_1                        []              0.07            0
+external_shear_2                        []              0.059           0
+
+#the substructure: truncated NFW convergence profile:
+substructure_center_1                   [arcsec]        1.66            0
+substructure_center_2                   [arcsec]        0.898           0
+substructure_mass_200c                  [M_solar]       2.234e+09       0
+substructure_concentration              []              19.94           0

@@ -1,0 +1,32 @@
+# sllsc summary results submission file example for challenge level 0 and 1
+#
+# header:
+#
+# team name: The Challenge Team
+# team members: Stefan Hilbert, Massimo Meneghetti , Dandan Xu
+# contact email: hilbert@mpa-garching.mpg.de
+#
+# comments:
+# - Submissions of results should follow the provided format and naming conventions. Teams may submit different entries for different methods.
+#
+# - For submission of summary results a single file containing results for all systems should be named like
+#   "results_by_team_name_and_possibly_method.txt".
+# 
+# - The file should contain a header section and a parameter results section.
+#
+# - All lines except those stating the parameter results in the format provided below should start with "#" or be empty.
+#
+# - Please include in the file header the names of all team members, and at least one email address for communication and feedback.
+#
+# - In the parameter results section, please provide your estimates of substructure parameters as the mean and standard deviation of your Gaussian approximations to your marginalized parameter posteriors.
+#
+# - Please send your results to:
+#   hilbert@mpa-garching.mpg.de
+
+# substructure parameter results:
+#
+#system_name                            substructure_center_1[arcsec]   substructure_center_2[arcsec]   substructure_mass_200c[M_solar] substructure_concentration    
+sllsc_lvl_0_large_hi_sn_system_1        1.66            0               0.898           0               2.234e+09       0               19.94           0
+sllsc_lvl_0_small_hi_sn_system_1        0.285           0               1.112           0               7.528e+08       0               6.13            0
+sllsc_lvl_1_large_hi_sn_system_1        ?               ?               ?               ?               ?               ?               ?               ?
+...

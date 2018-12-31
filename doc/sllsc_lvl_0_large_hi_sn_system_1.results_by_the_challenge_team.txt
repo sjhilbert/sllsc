@@ -1,0 +1,55 @@
+# sllsc results submission file example for callenge level 0 and 1
+#
+# header:
+#
+# team name: The Challenge Team
+# team members: Stefan Hilbert,  Massimo Meneghetti, Dandan Xu
+# contact email: hilbert@mpa-garching.mpg.de
+# 
+# comments:
+# - Submissions of results should follow the provided format and naming conventions. Teams may submit different entries for different methods.
+# 
+# - For submission of results for a simulated system with files named 
+#   "sllsc_lvl_0_some_system.info.txt", etc.
+#   the submitted file should be named like
+#   "sllsc_lvl_0_some_system.results_by_team_name_and_possibly_method.txt".
+#  
+# - The file should contain a header section and a parameter results section.
+# 
+# - All lines except those stating the parameter results in the format provided below should start whith "#" or be empty.
+# 
+# - Please include in the file header the names of all team members, and at least one email adress for communication and feedback.
+# 
+# - In the parameter results section, please provide your estimates of parameters as the mean and standard deviation of your gaussian approximations to your marginalized parameter posteriors.
+# 
+# - Please send your results to: 
+#   hilbert@mpa-garching.mpg.de
+#
+# parameter results:
+#
+#parameter_name                 unit            mean            standard_deviation
+#
+# the source: Sersic elliptical profile parameters:
+source_center_1                 arcsec          0.458           0.12
+source_center_2                 arcsec          0.186           0.07
+source_amplitude                1               2.612           0.05
+source_effective_radius         arcsec          0.138           0.02
+source_Sersic_index             1               1.945           0.2
+source_axis_ratio               1               0.864           0.1
+source_position_angle           deg             39.4            2.5
+
+#the main lens: SPLE convergence profile parameters:
+main_lens_Einstein_radius       arcsec          1.236           0.1
+main_lens_slope                 1               1.848           0.12
+main_lens_axis_ratio            1               0.723           0.02
+main_lens_position_angle        deg             -11.3           1.5
+
+# the external deflector: external shear:
+external_shear_1                1               0.046           0.01
+external_shear_2                1               0.019	0.012
+
+# the substructure: truncated NFW convergence profile parameters:
+substructure_center_1           arcsec          1.712           0.01
+substructure_center_2           arcsec          0.982           0.012
+substructure_mass_200c          10^10M_solar    0.1698          0.002
+substructure_concentration      1               11.4138         1.2
