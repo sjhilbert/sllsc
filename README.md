@@ -1,6 +1,3 @@
-# sllsc
-Strong Lens Line-of-sight and Substructure Challenge
-
 Welcome to our challenge to detect and quantify line-of-sight structures and substructure in galaxy-galaxy strong lenses!
 
 The challenge is divided into four levels of increasing difficulty, complexity, and/or realism from level 0 (simple source,
