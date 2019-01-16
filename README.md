@@ -10,9 +10,9 @@ The **simulated data** for the first two levels (sorry radio data still missing)
 - [lvl_0.tar.gz](https://sjhilbert.github.io/sllsc/data/lvl_0.tar.gz)
 - [lvl_1.tar.gz](https://sjhilbert.github.io/sllsc/data/lvl_1.tar.gz)
 
-But probably the easiest way to get the simulated data is probably to just **clone** or **download** this project:
-- [https://github.com/sjhilbert/sllsc](https://github.com/sjhilbert/sllsc)
-
 Please **submit your results** for the first two levels as described in the example submission files:
 - a single [file](https://sjhilbert.github.io/sllsc/data/aux/results_by_the_challenge_team.txt) (per team and method) containing results for substructure paramaters of all systems
 - for more detailed feedback, a [file](https://sjhilbert.github.io/sllsc/data/aux/sllsc_lvl_0_large_hi_sn_system_1.results_by_the_challenge_team.txt) for each system containing results of source, main lens, and substructure parameters
+
+To report any **issues** or to ask **questions** regarding the challenge, you may send an email to  
+- <hilbert@mpa-garching.mpg.de>
