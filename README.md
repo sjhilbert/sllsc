@@ -19,3 +19,7 @@ Please **submit your results** for the first two levels as described in the exam
 
 To report any **issues** or to ask **questions** regarding the challenge, you may send an email to  
 - <hilbert@mpa-garching.mpg.de>
+
+**updates**:
+- 2019-02-11: added psf images
+- 2019-01-16: lvl 0 and lvl 1 optical data going public
