@@ -21,6 +21,7 @@ To report any **issues** or to ask **questions** regarding the challenge, you ma
 - <hilbert@mpa-garching.mpg.de>
 
 **updates**:
+- 2019-05-21: added convergence and deflection maps for lvl 0
 - 2019-03-31: **deadline** for lvl 0 and lvl1 will be **extended** (details will follow soon)
 - 2019-02-11: added psf images
 - 2019-01-16: lvl 0 and lvl 1 optical data going public
